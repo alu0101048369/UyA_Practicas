@@ -10,9 +10,9 @@ Este trabajo se ha desarrollado partiendo del seminario impartido sobre el Dise�
 ## Apartado 1 - Identificar actividades que corresponden con el diagrama de métodos DCU y su ubicación en la fase del diseño
 Para responder a este apartado se nos ha pedido analizar el documento de ejemplo proporcionado en el que se lleva a cabo una aplicación del Diseño Centrado en el Usuario, para ello hemos estudiado los pasos que se han seguido en sus diferentes fases, y las hemos resumido de forma breve.
 
-En primer lugar, podemos ver que los autores del documento, con el fin de encontrar problemas de arquitectura de información y de usabilidad en el diseño de interfaces de usuario, realizaron un análisis heurístico (fase de investigación/análisis).
+En primer lugar, con el fin de encontrar problemas de arquitectura de información y de usabilidad en el diseño de interfaces de usuario, se realizó un análisis heurístico (fase de investigación/análisis).
 
-A continuación, llevaron a cabo una entrevista a los directivos principales de la biblioteca para identificar requisitos funcionales y no funcionales del proyecto (fase de investigación/análisis). Luego de esto, con el objetivo de identificar nuevos requerimientos así como las necesidades coincidentes con los directivos, se hizo un brainstorming (fase de diseño/conceptual). 
+A continuación, se llevó a cabo una entrevista a los directivos principales de la biblioteca para identificar requisitos funcionales y no funcionales del proyecto (fase de investigación/análisis). Luego de esto, con el objetivo de identificar nuevos requerimientos así como las necesidades coincidentes con los directivos, se hizo un brainstorming (fase de diseño/conceptual). 
 
 Una vez identificados los primero requisitos del proyecto, se llevó a cabo un estudio de homólogos (fase de investigación/análisis) para identificar las fortalezas y debilidades de diferentes portales bibliotecarios con contenido y público similar.
 
@@ -23,7 +23,7 @@ Además, con el fin de conocer cómo los usuarios visualizaban la organización 
 Por último, con el objetivo de obtener una aproximación de la estructuración del portal y de sus contenidos, se utilizó la técnica de prototipado en papel (fase de prototipado) y seguidamente se llevó a cabo el prototipado digital de baja fidelidad (fase de prototipado) para empezar a trabajar en la usabilidad y accesibilidad del portal.
 
 ## Apartado 2 - Aplicar el DCU para la realización de un prototipo de una aplicación web
-En este apartado, se nos ha pedido utilizar los conocimientos adquiridos para aplicar el DCU en la realización de un prototipo de una aplicación o página web. Nuestro equipo ha escogido desarrollar una aplicación web financiera para la compartición de gastos del hogar. Para ello, previamente tendremos que realizar una fase de investigación y otra de diseño.
+En este apartado, se nos ha pedido utilizar los conocimientos adquiridos para aplicar el DCU en la realización de un prototipo de una aplicación o página web. Nuestro equipo ha decidido desarrollar una aplicación web financiera para la compartición de gastos del hogar. Para ello, previamente tendremos que realizar una fase de investigación y otra de diseño.
 
 La fase de análisis e investigación se centrará en la observación del contexto y en el estudio de las preferencias y prioridades de los clientes. Para ello aplicaremos los siguientes métodos:
 
@@ -33,7 +33,7 @@ La fase de análisis e investigación se centrará en la observación del contex
 
 - **Análisis de los usuarios:** antes de comenzar cualquier tipo de diseño, tenemos que estudiar qué tipo de necesidades tendrán los usuarios. Para ello realizaremos encuestas con usuarios que usen o no tecnologías similares a la que se va a desarrollar, y si las usan, se harán preguntas acerca del uso que le dan, las necesidades que les cubren etc.
 
-- **Benchmarking:** se deberán deducir del análisis de los clientes y de las tecnologías existentes una serie de parámetros y características que definan qué objetivos debemos alcanzar con nuestro software. Se realizará una sesión de Benchmarking, buscando a través de páginas como kickstarter, ideas y proyectos innovadores parecidos y complementarios  a nuestra idea.
+- **Benchmarking:** Se realizará una sesión de Benchmarking, buscando a través de páginas como kickstarter, ideas y proyectos innovadores parecidos y complementarios  a nuestra idea.
 
 La fase de diseño conceptual consiste en la definición de requisitos y características que va a tener nuestra aplicación, así como la distribución y selección de los contenidos que poseerá la misma. Esta fase se desglosará en las siguientes tareas:
 
