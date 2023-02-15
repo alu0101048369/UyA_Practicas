@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Introducción al lenguaje HTML</title>
+</head>
+<body>
+  <h1>Introducción al lenguaje HTML</h1>
+  <hr>
+  
+  <h2>Introducción - Lenguaje de marcas</h2>
+  <p>HTML es un lenguaje de marcas, es decir, es una forma de definir texto con etiquetas. Estas etiquetas tienen (generalmente) un nombre y un contenido, y se define <code>&lt;etiqueta&gt;contenido&lt;/nombre&gt;</code>.</p>
+  <p>Las etiquetas se tienen que declarar en una jerarquía, y en las versiones anteriores a HTML5 la única etiqueta que podía existir en el primer nivel era la etiqueta <code>html</code>, la cual solo contiene las etiquetas <code>head</code> (información sobre el documento) y <code>body</code> (contenido del documento).</p>
+  <p>HTML ignora los espacios en blanco redundates, así que podemos distribuir una línea en múltiples dentro del código sin que afecte a su visualización.</p>
+
+  <h2>Entidades</h2>
+  <p>Las entidades son formas de representar carácteres no válidos o no reconocidos en el charset del documento. Con ello, podemos representar carácteres especiales, o código, por ejemplo, podemos representar el código <code>&lt;p&gt;Hola Mundo&lt;/p&gt;</code> escribiendo lo siguiente en el documento HTML: <code>&amp;lt;p&amp;gt;Hola Mundo&amp;lt;/p&amp;gt;</code></p>
+
+  <h2>Etiquetas</h2>
+  
+  <h3>Enlaces</h3>
+  <p>La etiqueta <code>&lt;a&gt;</code> (abreviación de "anchor") representa un enlace a otro documento o contenido. Estas etiquetas tienen que tener como mínimo la URL o la tag de la página a la que dirigir al usuario.</p>
+  <p>Tienen un ejemplo de la aplicación de esta tag <a href="https://www.migueldorta.com">en este enlace a mi página web</a>.</p>
+
+  <h3>Párrafos</h3>
+  <p>La etiqueta <code>&lt;p&gt;</code> (abreviación de "paragraph") representa un párrafo. Un ejemplo de la aplicación de esta etiqueta es este párrafo.</p>
+
+  <h3>Cabeceras / títulos</h3>
+  <p>Las etiquetas <code>&lt;h1&gt;</code>, <code>&lt;h2&gt;</code> ... <code>&lt;h6&gt;</code> representan los encabezados (la "h" es una abreviación de header). Un ejemplo de la aplicación de esta etiqueta se encuentra en los encabezados de cada sección de este documento.</p>
+
+  <h3>Etiquetas de estilo</h3>
+  <p>Son etiquetas cuyo uso no se suele recomendar en HTML5, estas etiquetas nos permite aplicar estilos sobre el texto como <strong>destacarlo</strong> (etiqueta "strong") o <em>hacer énfasis</em> (etiqueta "em").</p>
+
+  <h3>Etiquetas de contextualización de texto</h3>
+  <p>Son etiquetas cuya finalidad es marcar un texto que debe ser interpretado de una forma particular por los navegadores. Un ejemplo de ello pueden ser las <q>citas</q> (etiqueta "q"), o el <code>código</code> (etiqueta "code").</p>
+
+  <h3>Enlaces</h3>
+  <p>Los documentos HTML tienen muchos enlaces que se cargan automáticamente por los navegadores. Estos elementos son frecuentemente metadata (etiquetas "meta"), hojas de estilo (incluídas en las etiquetas "link") o código JavaScript (etiquetas "script").</p>
+  <p>En este documento no se incluirá ejemplo de estas etiquetas porque generalmente deben ir en el header, y también porque en esta práctica se nos especifica no implementar este tipo de etiquetas.</p>
+
+  <h3>Listas</h3>
+  <p>Los documentos HTML pueden incluir listas numeradas y no numeradas, las cuales se definen respecticamente con los elementos "ul" (abreviación de "unordered list") y "ol" (abreviación de "ordered list"), y sus elementos se definen con la etiqueta "li" (abreviación de "list item").</p>
+  <p>A continuación se muestra un ejemplo de cada tipo de lista:</p>
+  <ul>
+    <li>Esta</li>
+    <li>es</li>
+    <li>una</li>
+    <li>lista</li>
+    <li>no</li>
+    <li>ordenada</li>
+  </ul>
+  <hr width="200" align="left">
+  <ol>
+    <li>Esta</li>
+    <li>es</li>
+    <li>una</li>
+    <li>lista</li>
+    <li>ordenada</li>
+  </ol>
+
+  <h3>Imágenes</h3>
+  <p>La etiqueta <code>&lt;img&gt;</code> nos permite incorporar imágenes dentro de nuestro documento. El mecanismo principal para introducirlas es poner la URL hacia la imagen (absoluta o relativa), o embeberlas como data URIs. A continuación se ejemplifica el uso de esta etiqueta:</p>
+  <img src="https://www.w3.org/2008/site/images/logo-w3c-mobile-lg" alt="Logo del World Wide Web Consortium">
+
+  <h3>Tablas</h3>
+  <p>El HTML también podemos representar tablas con las etiquetas "table" para la tabla, "thead" para la cabecera, "tbody" para el cuerpo de la tabla, "tfoot" el footer de la tabla, "tr" para las filas, "th" para las celdas que son cabeceras, y "td" para las celdas normales. A continuación se muestra una tabla con todos estos elementos:</p>
+  <table border="5">
+    <thead>
+      <tr>
+        <th>Título columna 1</th>
+        <th>Título columna 2</th>
+        <th>Título columna 3</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th>Título fila 1</th>
+        <td>Contenido</td>
+        <td>Contenido</td>
+      </tr>
+      <tr>
+        <th>Título fila 2</th>
+        <td>Contenido</td>
+        <td>Contenido</td>
+      </tr>
+      <tr>
+        <th>Título fila 3</th>
+        <td>Contenido</td>
+        <td>Contenido</td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr>
+        <td>Footer columna 1</td>
+        <td>Footer columna 2</td>
+        <td>Footer columna 3</td>
+      </tr>
+    </tfoot>
+  </table>
+
+  <h3>Formularios</h3>
+  <p>En último lugar, podemos crear formulario para hacer las páginas web interactivas. Los formularios son relativamente complejos, pero básicamente se definen con una etiqueta "form", dentro de la cual se definen etiquetas "input" y "button", además de etiquetas de ayuda como "label". A continuación se muestra un ejemplo:</p>
+  <form action="https://localhost" method="post">
+    <label>
+      Nombre de usuario:
+      <input type="text">
+    </label>
+    <br>
+    <label>
+      Contraseña:
+      <input type="password">
+    </label>
+    <br>
+    <button type="submit">Enviar</button>
+    <button type="reset">Limpiar formulario</button>
+  </form>
+</body>
+</html>
