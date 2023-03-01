@@ -1,0 +1,70 @@
+html, body {
+  margin: 0 auto;
+  padding: 0;
+  width: 770px;
+  font-family: Arial, sans-serif;
+  font-size: 1.5em;
+  color: black;
+}
+
+a {
+  color: blue;
+}
+
+a:hover {
+  color: red;
+}
+
+a:visited {
+  color: blue;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+}
+
+main {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+nav {
+  height: 100px;
+  background-image: url("cabecera.jpg");
+}
+
+nav * {
+  background-color: #9b009b;
+  padding: 0.3em;
+  margin-bottom: 0.7em;
+}
+
+nav *:hover {
+  background-color: #ff41ff;
+}
+
+p {
+  margin-top: 0.5em;
+}
+
+table a {
+  color: green;
+}
+
+.main-area {
+  height: 100%;
+  background-color: #AAA;
+  max-width: 320px;
+}
+
+.secondary-area {
+  max-width: 320px;
+  background-color: #FFF;
+}
+
+.link-area {
+  width: 130px;
+  background-color: #AAA;
+}
